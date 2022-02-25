@@ -172,7 +172,7 @@ NSString * const AWARE_PREFERENCES_THRESHOLD_ACCELEROMETER = @"threshold_acceler
                                               handler(self, dict);
                                           }
                                           
-                                          [self.storage saveDataWithDictionary:dict buffer:YES saveInMainThread:NO];
+                                          //[self.storage saveDataWithDictionary:dict buffer:YES saveInMainThread:NO];
                                       }
                                   }];
     [self setSensingState:YES];

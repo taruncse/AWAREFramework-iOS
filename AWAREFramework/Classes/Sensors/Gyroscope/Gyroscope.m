@@ -137,7 +137,7 @@ NSString* const AWARE_PREFERENCES_FREQUENCY_HZ_GYROSCOPE = @"frequency_hz_gyrosc
                                          
                                          [self setLatestData:dict];
                                          
-                                         [self.storage saveDataWithDictionary:dict buffer:YES saveInMainThread:NO];
+                                         //[self.storage saveDataWithDictionary:dict buffer:YES saveInMainThread:NO];
                                          
                                          NSDictionary *userInfo = [NSDictionary dictionaryWithObject:dict
                                                                                               forKey:EXTRA_DATA];
